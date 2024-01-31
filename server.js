@@ -4,6 +4,7 @@ const port = 3000;
 
 const database = require("./database/database.js"); 
 app.use(express.static('public'));
+//this is Alaa Submission
 
 app.get('/login', (req, res) => {
 
